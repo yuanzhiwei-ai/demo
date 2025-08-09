@@ -1,0 +1,113 @@
+# Build outputs
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+*.d
+*.axf
+*.out
+*.a
+*.lib
+
+# Debug and Release directories
+Debug/
+Release/
+build/
+Build/
+
+# IDE specific files
+# STM32CubeIDE / Eclipse
+.cproject
+.project
+.settings/
+.metadata/
+.launches/
+RemoteSystemsTempFiles/
+
+# STM32CubeMX backups
+*.bak
+.mxproject.bak
+
+# Keil uVision
+*.uvgui*
+*.uvopt*
+*.uvproj*
+*.uvmpw
+*.uvmpw.*
+*.plg
+*.tra
+*.sct
+*.scvd
+*.dbgconf
+*.jlink
+*.ini
+JLinkLog.txt
+JLinkSettings.ini
+Objects/
+Listings/
+RTE/
+*.dep
+
+# IAR Embedded Workbench
+*.ewp
+*.eww
+*.ewd
+*.ewt
+*.wsdt
+*.wspos
+*.xcl
+settings/
+
+# Visual Studio Code
+.vscode/
+
+# CLion / IntelliJ
+.idea/
+cmake-build-*/
+
+# System files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Generated documentation
+doc/
+docs/html/
+docs/latex/
+
+# Backup files
+*.orig
+*.rej
+*~
+\#*\#
+
+# Tags
+tags
+TAGS
+
+# Core dumps (Unix/Linux)
+# Using specific pattern to avoid ignoring Core/ directory
+core.*
+*.core
+!Core/
+
+# Mac specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
